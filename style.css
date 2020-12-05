@@ -1,0 +1,36 @@
+        root {
+            --deep-space-sparkle: #395e66ff;
+            --myrtle-green: #387d7aff;
+            --illuminating-emerald: #32936fff;
+            --jade: #26a96cff;
+            --ghost-white: #e8e9f3ff;
+        }
+        
+        .menu {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            width: 25%;
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+            background-image: linear-gradient(to right, #395e66ff, #26a96cff);
+        }
+        
+        #profilePicture {
+            border-radius: 15% 50%;
+            background-position: left top;
+            background-repeat: repeat;
+            padding: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .content {
+            position: relative;
+            margin-left: 25%;
+            background-image: linear-gradient(to right, #26a96cff, #e8e9f3ff);
+        }
